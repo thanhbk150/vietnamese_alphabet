@@ -16,4 +16,8 @@ If bundler is not being used to manage dependencies, install the gem by executin
 ```Ruby
 VietnameseAlphabet.convert_variation("Tôi yêu Việt Nam")
 # => "Toi yeu Viet Nam"
+
+
+VietnameseAlphabet.to_slug("Tôi yêu Việt Nam")
+# => "toi-yeu-viet-nam"
 ```
